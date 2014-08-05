@@ -28,7 +28,7 @@ function learn_404_init(){
 		'public'             => false,
 		'publicly_queryable' => false,
 		'show_ui'            => true,
-		'show_in_menu'       => true,
+		'show_in_menu'       => 'tools.php',
 		'query_var'          => true,
 		'capability_type'    => 'post',
 		'has_archive'        => true,
